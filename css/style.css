@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::after, *::before {
+    box-sizing: inherit;
+}
+html,body {
+    font-size: 100%;
+}
+
+.flex-inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    width: 100%
+}
+#flex-inputs input {
+    height: 2rem;
+    width: 3rem;
+    padding: 1rem;
+    border: 1px solid blue;
+    margin: 2rem  5rem;
+}
+#flex-inputs input:focus {
+    border: 1px solid blue;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    margin-top: 2rem;
+    background: #333;
+    color: white;
+    padding: 1.3rem;
+    border: transparent;
+    cursor: pointer;
+}
